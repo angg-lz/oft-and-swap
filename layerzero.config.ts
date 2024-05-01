@@ -5,12 +5,12 @@ import {BigNumber} from "ethers";
 
 const arbsepContract = {
     eid: EndpointId.ARBSEP_V2_TESTNET,
-    contractName: 'MyOFTMock',
+    address: '0x123',
 }
 
 const fujiContract = {
     eid: EndpointId.AVALANCHE_V2_TESTNET,
-    contractName: 'MyOFTMock',
+    address: '0x456',
 }
 
 const mumbaiContract = {

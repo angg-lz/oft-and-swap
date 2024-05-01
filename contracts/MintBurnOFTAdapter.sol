@@ -66,7 +66,7 @@ contract ElevatedMinterBurner is IMintableBurnable, Operatable {
     }
 }
 
-abstract contract MintOFTAdapter is OFTCore {
+abstract contract MintBurnOFTAdapter is OFTCore {
     using SafeERC20 for IERC20;
 
     IERC20 internal immutable innerToken;
